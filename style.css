@@ -1,0 +1,14 @@
+input:invalid{
+    border: red solid 3px;
+}
+
+input:valid{
+    border: green solid 3px;
+}
+input:read-only{
+    box-shadow: inset 1px 1px 3px #ccc;
+}
+input:focus{
+    box-shadow: inset 1px 4px 3px yellow;
+
+}

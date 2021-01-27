@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        .content {
+          padding: 0 18px;
+          background-color: pink;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.2s ease-out;
+        }
+        </style>
+</head>
+
+ <body>
+
+
+
+    <form name="myForm" action="" method="get" onsubmit="return validateForm()">
+
+
+    <h2>Application Form</h2>
+    <div class="row">
+      <label>Full Name</label>
+      <input type="text" name="name" required autofocus>
+    </div><br>
+
+    <div class="row">
+      <label>Email Address</label>
+      <input type="text" name="email" min="7" required>
+    </div><br>
+
+    <div class="row">
+      <label>Mobile Number</label>
+      <input type="text" name="mobile">
+    </div><br>
+
+    <div class="row">
+      <label>Password</label>
+      <input type="password" name="password" maxlength="16" required>
+    </div> <br>
+
+    <div class="row">
+        <label>State</label>
+        <input type="text" name="state">
+      </div><br>
+
+      <div class="row">
+        <label>City</label>
+        <input type="text" name="city">
+      </div><br>
+      <input type="radio" checked="checked" value="male" name="gender"> Male
+      <input type="radio" value="female" name="gender"> Female <br>
+      <input id="age" type="number" min="100" max="300" required>
+      <button onclick="myFunction()">OK</button>
+      <input type="submit" value="Submit">
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--css-->
+  <!--  <button id="start-button">Start</button>
+<button id="speed-button">Go Faster!</button>
+<button id="stop-button">Stop</button>
+<div id="info"></div>
+
+<img style="position:absolute; left: 0px; top: 80px;" src="http://www.anniemation.com/clip_art/images/cat-walk.gif">
+
+
+ -->
+
+ <!-- forms -->
+<!-- 
+ <form id="myForm">
+    <input type="text" id="text" placeholder="name">
+    <input type="date" id="date"> 
+    ​
+        </form>
+     -->
+
+
+
+<!-- keyboard -->
+
+<!-- <h1>Test to see if the 'CapsLock' is activated?</h1>
+    
+<input type="text" size="30" onkeydown="myCaps(event)">
+
+<h6>The getModifierState() method may not supported in some browsers.</h6> 
+
+<p class="message"></p>
+ -->
+
+
+
+<!--Mutaations-->
+<!-- 
+<p>A Collapsible:</p>
+<button class="collapsible">Open Collapsible</button>
+<div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        ea commodo consequat.</p>
+</div>
+
+<p>Collapsible Set:</p>
+<button class="collapsible"> Section 1</button>
+<div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        ea commodo consequat.</p>
+</div>
+<button class="collapsible"> Section 2</button>
+<div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        ea commodo consequat.</p>
+</div> -->
+
+
+
+<!-- <p>Hello World</p>
+<form name="myForm" id="myForm">
+  
+ Name <input type="text" size="30" 
+  onfocus ="focusField()" />
+  <br>
+  <br>
+ 
+ City : <input name="city" onfocus="cityField()" />
+ <br>
+ <br>
+  
+  <input type="button" value="submit" />
+  
+  <input type="reset" value="clear all" />
+
+</form> -->
+
+
+<script src="javaS.js"></script>
+
+</body>
+</html>
