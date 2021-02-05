@@ -1,4 +1,4 @@
-input:invalid{
+/* input:invalid{
     border: red solid 3px;
 }
 
@@ -11,4 +11,4 @@ input:read-only{
 input:focus{
     box-shadow: inset 1px 4px 3px yellow;
 
-}
+} */

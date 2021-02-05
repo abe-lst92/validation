@@ -1,10 +1,10 @@
-function validateForm() {
-var x = document.forms["myForm"]["name"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
-}
+// function validateForm() {
+// var x = document.forms["myForm"]["name"].value;
+//   if (x == "") {
+//     alert("Name must be filled out");
+//     return false;
+//   }
+// }
 
 
 
@@ -95,8 +95,15 @@ var x = document.forms["myForm"]["name"].value;
 
 
 
+//focus
+// var color= document.getElementById('name')
+// addEventListener('focus', (event) => {
+//     event.target.style.background = 'skyBlue';
+//   }, true);
 
-
+// addEventListener('blur', (event) => {
+//     event.target.style.background = '';
+//   }, true);
 
 
 // mutuations
@@ -104,13 +111,13 @@ var x = document.forms["myForm"]["name"].value;
 
 // for(var i = 0; i < column.length; i++){
 //     column[i].addEventListener('click', function(){
-//         this.classList.toggle('active');
+//        this.classList.toggle('active');
 //         var content = this.nextElementSibling;
 //         if(content.style.maxHeight){
 //             content.style.maxHeight = null;
 
-//         } else {
+//          } else {
 //             content.style.maxHeight = content.scrollHeight + 'px';
-//         }
-//     })
-// }
+//          }
+//      })
+//  }
